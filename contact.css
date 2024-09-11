@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 10%;
+    background: rgba(2, 14, 53, 0.836);
+    position:fixed;
+top: 0;
+left: 0;
+z-index: 1;
+justify-content: space-between;	
+align-items: center;
+padding: 0 20px;
+
+			}
+
+.Logo{
+    height: 90%;
+    width: auto;
+    padding: 5px;
+    margin: 1px;
+}
+
+.navbar ul{
+float: right;
+margin: 25px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 10px;
+    display: inline;
+    line-height: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 94%;
+    padding: 10px 15px;
+    font-family: 'Poppins', sans-serif;
+    transition: .4s;
+    
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 5px;
+}
+
+.heading_container{
+    margin-top: 10%;
+    padding-left: 43%;
+}
+
+.body{
+  background-color: rgb(226, 238, 238);
+}
+ 
+ .contact_section {
+    position: relative;
+  }
+  
+  .contact_section .heading_container {
+    margin-bottom: 25px;
+  }
+  
+  .contact_section .heading_container h2 {
+    text-transform: uppercase;
+  }
+  
+  .contact_section .form_container {
+    margin-right: 15px;
+  }
+  
+  .contact_section .form_container input {
+    width: 30%;
+    border: none;
+    height: 50px;
+    margin-left: 35%;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    outline: none;
+    color: #101010;
+    -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+            box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+  }
+  
+  .contact_section .form_container input::-webkit-input-placeholder {
+    color: #252525;
+  }
+  
+  .contact_section .form_container input:-ms-input-placeholder {
+    color: #252525;
+  }
+  
+  .contact_section .form_container input::-ms-input-placeholder {
+    color: #252525;
+  }
+  
+  .contact_section .form_container input::placeholder {
+    color: #252525;
+  }
+  
+  .contact_section .form_container input.message-box {
+    height: 120px;
+  }
+  
+  .contact_section .form_container button {
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 55px;
+    margin-left: 45%;
+    background-color: #f07b26;
+    color: #ffffff;
+    border-radius: 50px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border: none;
+  }
+  
+  .contact_section .form_container button:hover {
+    background-color: #bc570d;
+  }
+  
+ 

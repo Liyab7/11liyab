@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<body class="body">
+ 
+  <nav class="navbar">
+    <img class="Logo" src="images/Logo.PNG">
+
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="Football.html">FOOTBALL</a></li>
+        <li><a href="Basketball.html">BASKETBALL</a></li>
+        <li><a href="Athletics.html">ATHLETICS</a></li>
+        <li><a href="Wrestling.html">WRESTLING</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+        <li><a class="active"href="contact.html">CONTACT</a></li>
+        <li><a href="login.html">login</a></li>
+
+
+
+    </ul>
+
+</nav>
+
+      <!-- contact section -->
+  <section class="contact_section layout_padding">
+    <div class="container-fluid">
+      <div class="col-lg-4 col-md-5 offset-md-1">
+        <div class="heading_container">
+          <h2 cnt>
+            Contact Us
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-5 offset-md-1  ">
+          <div class="form_container">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <div>
+                <input type="hidden" name="access_key" value="77f310e7-f514-4c73-b669-1a41c4419025">
+        <input type="text" name="name" placeholder="Your Name" id="name" required />
+              </div>
+              <div>
+        <input type="email" name="email" placeholder="Email" id="email" required />
+              </div>
+              <div>
+        <input type="text" name="subject" placeholder="Message Subject" id="subject" required />
+              </div>
+              <div>
+        <input type="text" name="message" class="message-box" placeholder="Message" id="message" required/>
+              </div>
+              <div class="btn_box">
+                <button>
+                  SEND
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-6 px-0">
+          <div class="map_container">
+            <div class="map">
+              <div id="googleMap"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+</body>
+</html>

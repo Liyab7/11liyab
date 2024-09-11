@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+background-image:linear-gradient( rgb(255, 255, 255),rgba(6, 112, 23, 0.781)), url(./IMG/basketball.jpg);
+background-size: cover;
+background-color: linear;
+    height: 100vh;
+	width: fit-content;
+	display: flex;
+justify-content:left;
+align-items: center;	
+
+}
+
+.navbar{
+    width: 100%;
+    height: 10%;
+    background: rgba(1, 26, 1, 0.911);
+    position:fixed;
+top: 0;
+left: 0;
+z-index: 1;
+justify-content: space-between;	
+align-items: center;
+padding: 0 20px;
+
+			}
+
+.Logo{
+    height: 90%;
+    width: auto;
+    padding: 5px;
+    margin: 1px;
+}
+
+.navbar ul{
+float: right;
+margin: 25px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 10px;
+    display: inline;
+    line-height: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 94%;
+    padding: 10px 15px;
+    font-family: 'Poppins', sans-serif;
+    transition: .4s;
+    
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 8px;
+}
+.bsball{
+	font-size: 150%;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+	width: bold;
+	color: rgb(1, 5, 34);
+	padding: 5% 2%;
+	align-self:normal 
+
+};
+
+.box{
+	margin: 10px;
+	width: 800px;
+	height: 400px;
+	box-shadow: -1px 0 10px #000000;
+	align-items: center;
+	justify-content: center;
+	text-align: center; 
+   
+}
+img{
+	width: 300px;
+	height: 200px;
+}
+.box:hover{
+    transform: translateY(-30px);
+    box-shadow: 0 0 10px #001731;
+}
+
+.box2:hover{
+    transform: translateY(-30px);
+    box-shadow: 0 0 10px #001731;
+}
+.box3:hover{
+    transform: translateY(-30px);
+    box-shadow: 0 0 10px #001731;
+}
+.box4:hover{
+    transform: translateY(-30px);
+        box-shadow: 0 0 10px #001731;
+}
+
